@@ -125,7 +125,7 @@ public class Character {
             return;
     }
 
-    public void userAttack (User user, Enemy enemy) {
+    public static void userAttack (User user, Enemy enemy) {
         if (user.getAtt() > enemy.getDef()) {
             enemy.setHp(enemy.getHp()-user.getAtt());
             JOptionPane.showMessageDialog(null,"You Attack for " + user.getAtt() + " points of damage");
