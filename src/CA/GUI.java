@@ -4,6 +4,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.ArrayList;
 
 /**
  * Created by t00160248 on 29/11/2017.
@@ -12,13 +13,20 @@ public class GUI extends JFrame implements ActionListener {
     private JMenu mainMenu, Save;
     private JMenuBar Menu;
     private JMenuItem save, load, exit, start;
+    private ImageIcon userImg, enemyImg;
+    private JLabel userL, enemyL;
     //private JButton attButton, defButton;
     private JPanel GUIuser, GUIenemy, button;
     private JFrame frame = new JFrame("RPG");
 
+    static int characterCount;
+    static ArrayList<User> users;
+
     public GUI(){
-        frame.setLocation(100,0);
+
         frame.setSize(500,500);
+        Dimension dim = Toolkit.getDefaultToolkit().getScreenSize();
+        frame.setLocation(dim.width/2-frame.getSize().width/2, dim.height/2-frame.getSize().height/2);//code taken from StackOverflow https://stackoverflow.com/questions/2442599/how-to-set-jframe-to-appear-centered-regardless-of-monitor-resolution
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setLayout(new GridLayout(3,2));
         save = new JMenuItem();
@@ -54,6 +62,20 @@ public class GUI extends JFrame implements ActionListener {
         GUIenemy = new JPanel(new FlowLayout());
         button = new JPanel (new FlowLayout());
 
+
+        userL = new JLabel();
+        enemyL = new JLabel();
+
+        enemyImg = new ImageIcon("Images//orc.jpg");
+        enemyL.setIcon(enemyImg);
+        GUIenemy.add(enemyL);
+        frame.add(GUIenemy);
+
+        userImg = new ImageIcon("Images//human.png");
+        userL.setIcon(userImg);
+        GUIuser.add(userL);
+        frame.add(GUIuser);
+
         //attButton = new JButton("Attack");
         //defButton = new JButton("Defend");
         //attButton.setSize(80,80);
@@ -61,8 +83,8 @@ public class GUI extends JFrame implements ActionListener {
         //button.add(defButton);
         //button.setVisible(false);
 
-        frame.add(GUIuser);
-        frame.add(GUIenemy);
+        //frame.add(GUIuser);
+        //frame.add(GUIenemy);
 
         //button.add(attButton);
         //button.add(defButton);
@@ -96,7 +118,11 @@ public class GUI extends JFrame implements ActionListener {
         }
 
         if (e.getSource() == start) {
-            User user = createUser();
+            if(users.isEmpty()) {
+                User user = createUser();
+            }
+            User user = users.get(characterCount);
+
             Enemy enemy = createEnemy();
             battle(user,enemy);
 
@@ -134,6 +160,29 @@ public class GUI extends JFrame implements ActionListener {
         double originalDef = user.getDef();
         double originalHp = user.getHp();
 
+        String type = user.getType();
+        if (type.equals("h")){
+            userImg = new ImageIcon("Images//human.png");
+            userL.setIcon(userImg);
+            userL.setLocation(800,0);
+            frame.add(userL);
+        }
+        else if (type.equals("e")){
+            userImg = new ImageIcon("Images//elf.jpg");
+            userL.setIcon(userImg);
+            frame.add(userL);
+        }
+        else if(type.equals("d")){
+            userImg = new ImageIcon("Images//dwarf.png");
+            userL.setIcon(userImg);
+            frame.add(userL);
+        }
+        else {
+            userImg = new ImageIcon("Images//orc.jpg");
+            userL.setIcon(userImg);
+            frame.add(userL);
+        }
+
         int userInitiation = 0;
 
         if (user.getAtt() > enemy.getAtt()) {
@@ -142,15 +191,30 @@ public class GUI extends JFrame implements ActionListener {
             userInitiation = 1;
         }
         String enemyType = enemy.getType();
-        if(enemyType == "h")
-            enemyType ="Human";
-        else if(enemyType =="e")
-            enemyType ="Elf";
-        else if (enemyType =="d")
-            enemyType ="Dwarf";
-        else
-            enemyType ="Orc";
-
+        if(enemyType == "h") {
+            enemyType = "Human";
+            enemyImg = new ImageIcon("Images//human.png");
+            enemyL.setIcon(enemyImg);
+            frame.add(enemyL);
+        }
+        else if(enemyType =="e") {
+            enemyType = "Elf";
+            enemyImg = new ImageIcon("Images//elf.jpg");
+            enemyL.setIcon(enemyImg);
+            frame.add(enemyL);
+        }
+        else if (enemyType =="d") {
+            enemyType = "Dwarf";
+            enemyImg = new ImageIcon("Images//dwarf.png");
+            enemyL.setIcon(enemyImg);
+            frame.add(enemyL);
+        }
+        else {
+            enemyType = "Orc";
+            enemyImg = new ImageIcon("Images//orc.jpg");
+            enemyL.setIcon(enemyImg);
+            frame.add(enemyL);
+        }
         JOptionPane.showMessageDialog(null,"You are fighting a " + enemyType);
 
         if (userInitiation == 0){
@@ -269,6 +333,8 @@ public class GUI extends JFrame implements ActionListener {
         }
 
         User user = new User(type);
+        characterCount++;
+        users.add(user);
         return user;
 
 
