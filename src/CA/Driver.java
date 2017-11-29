@@ -5,7 +5,7 @@ import javax.swing.*;
 public class Driver {
     public static void main(String[] args) {
         GUI hi = new GUI();
-        String type = JOptionPane.showInputDialog("Please enter your character's race: (h:human, e:elf, d:dwarf, o:orc");
+        /*String type = JOptionPane.showInputDialog("Please enter your character's race: (h:human, e:elf, d:dwarf, o:orc");
         while (!type.equals("h") && !type.equals("e") && !type.equals("d") && !type.equals("o") ){
             type = JOptionPane.showInputDialog("Invalid choice, please pick again: (h:human, e:elf, d:dwarf, o:orc");
         }
@@ -34,7 +34,7 @@ public class Driver {
 
 
             }
-        }
-        System.exit(0);
+        }*/
+
     }
 }
