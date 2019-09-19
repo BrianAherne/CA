@@ -4,12 +4,18 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c302552f-c05f-4801-9015-d4ce79985e71" name="Default" comment="Added Character Test class and PLANTUML Plugin">
-      <change afterPath="$PROJECT_DIR$/src/CA/AttackBehavior.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CA/DefendBehavior.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CA/SwordAttack.java" afterDir="false" />
+    <list default="true" id="c302552f-c05f-4801-9015-d4ce79985e71" name="Default" comment="Added AttackBehavior, DefendBehavior and SwordAttack. &#10;Issue: Attack values are set in User and Enemy Classes, and called in GUI">
+      <change afterPath="$PROJECT_DIR$/src/CA/AgileDefend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CA/ArmorDefend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CA/BowAttack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CA/EnduranceDefend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CA/GreatAxeAttack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CA/HammerAttack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CA/ShieldDefend.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CA/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CA/Character.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CA/AttackBehavior.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CA/AttackBehavior.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CA/DefendBehavior.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CA/DefendBehavior.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CA/SwordAttack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CA/SwordAttack.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -241,7 +247,7 @@
       <workItem from="1512053154304" duration="13000" />
       <workItem from="1512053813600" duration="104000" />
       <workItem from="1568905444773" duration="892000" />
-      <workItem from="1568906389773" duration="2819000" />
+      <workItem from="1568906389773" duration="4147000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <created>1511959355792</created>
@@ -257,7 +263,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568910574294</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added AttackBehavior, DefendBehavior and SwordAttack. &#10;Issue: Attack values are set in User and Enemy Classes, and called in GUI">
+      <created>1568911914446</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1568911914447</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,7 +293,8 @@
     <MESSAGE value="Test" />
     <MESSAGE value="Added the framework for the GUI. Simple system.out.printlns have been used to test the functionality of menu items" />
     <MESSAGE value="Added Character Test class and PLANTUML Plugin" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Character Test class and PLANTUML Plugin" />
+    <MESSAGE value="Added AttackBehavior, DefendBehavior and SwordAttack. &#10;Issue: Attack values are set in User and Enemy Classes, and called in GUI" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added AttackBehavior, DefendBehavior and SwordAttack. &#10;Issue: Attack values are set in User and Enemy Classes, and called in GUI" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
