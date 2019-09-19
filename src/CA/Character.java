@@ -6,9 +6,11 @@ import java.io.Serializable;
 
 import static javax.swing.JOptionPane.showMessageDialog;
 
-public class Character implements Serializable{
+public abstract class Character implements Serializable{
     private String type;
     private double hp, att, def, exp;
+    AttackBehavior attackBehavior;
+    DefendBehavior defendBehavior;
 
     public String getType() {
         return type;
@@ -45,6 +47,22 @@ public class Character implements Serializable{
     }
 
     public void setExp(double exp) { this.exp = exp; }
+
+    public void performAttack(){
+        //attack here
+    }
+
+    public void performDefend(){
+        //defend here
+    }
+
+    public void setAttackBehavior(AttackBehavior attackBehavior) {
+        this.attackBehavior = attackBehavior;
+    }
+
+    public void setDefendBehavior(DefendBehavior defendBehavior) {
+        this.defendBehavior = defendBehavior;
+    }
 
     @Override
     public String toString() {

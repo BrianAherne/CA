@@ -4,24 +4,12 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c302552f-c05f-4801-9015-d4ce79985e71" name="Default" comment="Added the framework for the GUI. Simple system.out.printlns have been used to test the functionality of menu items">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CA/CharacterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CA/SaveAndLoad.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="c302552f-c05f-4801-9015-d4ce79985e71" name="Default" comment="Added Character Test class and PLANTUML Plugin">
+      <change afterPath="$PROJECT_DIR$/src/CA/AttackBehavior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CA/DefendBehavior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CA/SwordAttack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CA.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CA.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CA/CA/Character.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CA/CA/Character.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CA/CA/Driver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CA/CA/Driver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CA/CA/Enemy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CA/CA/Enemy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CA/CA/GUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CA/CA/GUI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CA/CA/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CA/CA/User.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CA/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CA/Character.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CA/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CA/Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CA/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CA/Enemy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CA/GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CA/GUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CA/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CA/User.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,8 +20,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -59,7 +48,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="D:/Program Files/Git/bin/git.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../HeadFirstDesignPatterns_code102507/HF_DP" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
@@ -252,7 +241,7 @@
       <workItem from="1512053154304" duration="13000" />
       <workItem from="1512053813600" duration="104000" />
       <workItem from="1568905444773" duration="892000" />
-      <workItem from="1568906389773" duration="1541000" />
+      <workItem from="1568906389773" duration="2819000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <created>1511959355792</created>
@@ -261,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1511959355792</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added Character Test class and PLANTUML Plugin">
+      <created>1568910574294</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1568910574294</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -283,7 +279,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Test" />
     <MESSAGE value="Added the framework for the GUI. Simple system.out.printlns have been used to test the functionality of menu items" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added the framework for the GUI. Simple system.out.printlns have been used to test the functionality of menu items" />
+    <MESSAGE value="Added Character Test class and PLANTUML Plugin" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Character Test class and PLANTUML Plugin" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
