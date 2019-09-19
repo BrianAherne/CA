@@ -3,7 +3,7 @@ package CA;
 public class User extends Character {
     public User(String type) {
         setType(type);
-
+//Setting the base stats of the user's character based on the character's type
         if (type.equals("h")) {
             setHp(80);
             setAtt(30);

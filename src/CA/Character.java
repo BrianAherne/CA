@@ -2,7 +2,11 @@ package CA;
 
 import javax.swing.*;
 
-public class Character {
+import java.io.Serializable;
+
+import static javax.swing.JOptionPane.showMessageDialog;
+
+public class Character implements Serializable{
     private String type;
     private double hp, att, def, exp;
 
@@ -42,7 +46,22 @@ public class Character {
 
     public void setExp(double exp) { this.exp = exp; }
 
-
+    @Override
+    public String toString() {
+        String type;
+        String fullType="";
+        type = getType();
+        if(type.equals("h"))
+            fullType = "Human";
+        if(type.equals("e"))
+            fullType = "Elf";
+        if(type.equals("d"))
+            fullType = "Dwarf";
+        if(type.equals("o"))
+            fullType = "Orc";
+        String details = ("Character type: " + fullType + "\nAttack: " + getAtt() + "\nDefense" + getDef() + "\nHit Points" + getHp());
+        return details;
+    }
 }
 
 

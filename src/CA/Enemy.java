@@ -3,7 +3,7 @@ package CA;
 public class Enemy extends Character {
     public Enemy(String type) {
         setType(type);
-
+//Setting the base stats of the enemy based on the enemy type
         if (type.equals("h")) {
             setHp(80);
             setAtt(30);
