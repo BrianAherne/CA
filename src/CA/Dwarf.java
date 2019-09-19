@@ -6,5 +6,6 @@ public class Dwarf extends Character {
         setHp(50);
         attackBehavior = new HammerAttack();
         defendBehavior = new ArmorDefend();
+
     }
 }

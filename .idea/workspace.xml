@@ -4,13 +4,14 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c302552f-c05f-4801-9015-d4ce79985e71" name="Default" comment="Added Sword, Hammer, Bow and GreatAxe Attacks that implement AttackBehavior.&#10;Issue Solution: Attack and Defend methods return Integer values to be assigned to attack and defend.">
-      <change afterPath="$PROJECT_DIR$/src/CA/Dwarf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CA/Elf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CA/Human.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CA/Orc.java" afterDir="false" />
+    <list default="true" id="c302552f-c05f-4801-9015-d4ce79985e71" name="Default" comment="Added Human, Dwarf, Elf and Orc classes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CA/CA/Character.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CA/CA/Character.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CA/CA/Driver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CA/CA/Driver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CA/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CA/Character.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CA/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CA/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CA/Dwarf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CA/Dwarf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CA/HammerAttack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CA/HammerAttack.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -242,7 +243,7 @@
       <workItem from="1512053154304" duration="13000" />
       <workItem from="1512053813600" duration="104000" />
       <workItem from="1568905444773" duration="892000" />
-      <workItem from="1568906389773" duration="5586000" />
+      <workItem from="1568906389773" duration="7626000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <created>1511959355792</created>
@@ -272,7 +273,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568913895034</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added Human, Dwarf, Elf and Orc classes">
+      <created>1568915250035</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1568915250035</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -297,7 +305,8 @@
     <MESSAGE value="Added Character Test class and PLANTUML Plugin" />
     <MESSAGE value="Added AttackBehavior, DefendBehavior and SwordAttack. &#10;Issue: Attack values are set in User and Enemy Classes, and called in GUI" />
     <MESSAGE value="Added Sword, Hammer, Bow and GreatAxe Attacks that implement AttackBehavior.&#10;Issue Solution: Attack and Defend methods return Integer values to be assigned to attack and defend." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Sword, Hammer, Bow and GreatAxe Attacks that implement AttackBehavior.&#10;Issue Solution: Attack and Defend methods return Integer values to be assigned to attack and defend." />
+    <MESSAGE value="Added Human, Dwarf, Elf and Orc classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Human, Dwarf, Elf and Orc classes" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />

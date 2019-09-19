@@ -48,12 +48,18 @@ public abstract class Character implements Serializable{
 
     public void setExp(double exp) { this.exp = exp; }
 
-    public void performAttack(){
+    public Integer performAttack(){
         //attack here
+        int damage;
+        damage = attackBehavior.attack();
+        return damage;
     }
 
-    public void performDefend(){
+    public Integer performDefend(){
         //defend here
+        int defend;
+        defend = defendBehavior.defend();
+        return defend;
     }
 
     public void setAttackBehavior(AttackBehavior attackBehavior) {

@@ -5,7 +5,11 @@ import javax.swing.*;
 public class Driver {
     public static void main(String[] args) {
         //GUI test = new GUI();
-
+        Character dwarf = new Dwarf();
+        int test = dwarf.performAttack();
+        dwarf.setAtt(test);
+        int defend = dwarf.performDefend();
+        System.out.println("def=" + defend + " att=" + test);
 
     }
 }
