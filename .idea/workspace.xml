@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c302552f-c05f-4801-9015-d4ce79985e71" name="Default" comment="Connectivity issues resolved, attempting to recover lost files">
+      <change afterPath="$PROJECT_DIR$/src/CA/ActionAdapter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CA/ActionType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CA/ActionType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CA/AdvancedAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CA/AdvancedAction.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -253,7 +256,7 @@
       <workItem from="1568963271990" duration="333000" />
       <workItem from="1578150557541" duration="233000" />
       <workItem from="1578150819768" duration="13000" />
-      <workItem from="1578151114237" duration="3370000" />
+      <workItem from="1578151114237" duration="5366000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <created>1511959355792</created>
@@ -304,7 +307,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578154332183</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Connectivity issues resolved, attempting to recover lost files">
+      <created>1578154524421</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1578154524421</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -348,10 +358,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="540" y="179" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor/0.0.1920.1040/1920.39.1680.1010@0.0.1920.1040" timestamp="1578151847222" />
-    <state x="222" y="119" key="CommitChangelistDialog2" timestamp="1578154431647">
+    <state x="222" y="119" key="CommitChangelistDialog2" timestamp="1578154523307">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="222" y="119" key="CommitChangelistDialog2/0.0.1920.1040/1920.39.1680.1010@0.0.1920.1040" timestamp="1578154431647" />
+    <state x="222" y="119" key="CommitChangelistDialog2/0.0.1920.1040/1920.39.1680.1010@0.0.1920.1040" timestamp="1578154523307" />
     <state x="740" y="279" key="FileChooserDialogImpl" timestamp="1578151833546">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

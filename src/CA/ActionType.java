@@ -1,5 +1,5 @@
 package CA;
 
 public interface ActionType {
-    Action.selectWeapon();
+    Action selectWeapon();
 }
