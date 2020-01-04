@@ -4,16 +4,19 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c302552f-c05f-4801-9015-d4ce79985e71" name="Default" comment="Added Human, Dwarf, Elf and Orc classes">
+    <list default="true" id="c302552f-c05f-4801-9015-d4ce79985e71" name="Default" comment="Changed performAttack and performDefend to return the values for attack and defend. Commented out GUI to test in driver. Dwarf appears to be working correctly">
+      <change afterPath="$PROJECT_DIR$/src/CA/ATKObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CA/ActionType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CA/BasicAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CA/DEFObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CA/HPObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CA/PerformAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CA/Singleton.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CA/CA/Character.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CA/CA/Character.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CA/CA/Driver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CA/CA/Driver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CA/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CA/Character.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CA/ArmorDefend.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CA/ArmorDefend.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CA/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CA/Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CA/Dwarf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CA/Dwarf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CA/HammerAttack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CA/HammerAttack.java" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,6 +26,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
+        <option value="UML Class" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -39,19 +43,29 @@
   </component>
   <component name="ProjectId" id="1R3p3dSaRqnp7l4vOkadUbuYFTJ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="DefaultPlantUmlFileTemplate" value="UML Class" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../HeadFirstDesignPatterns_code102507/HF_DP" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Sample Finished Application for Design Patterns/BeatObserver.class" />
     <property name="nodejs_interpreter_path" value="node" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
@@ -64,18 +78,6 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\t00160248\Desktop\CA" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager">
     <configuration default="true" type="Applet">
@@ -136,6 +138,7 @@
       <setting name="vmparams" value="" />
       <setting name="cmdLine" value="run-app" />
       <setting name="passParentEnv" value="true" />
+      <setting name="grailsApplicationRoot" value="" />
       <setting name="launchBrowser" value="true" />
       <setting name="launchBrowserUrl" value="" />
       <setting name="depsClasspath" value="false" />
@@ -215,6 +218,18 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -243,7 +258,12 @@
       <workItem from="1512053154304" duration="13000" />
       <workItem from="1512053813600" duration="104000" />
       <workItem from="1568905444773" duration="892000" />
-      <workItem from="1568906389773" duration="7626000" />
+      <workItem from="1568906389773" duration="11018000" />
+      <workItem from="1568927401474" duration="1873000" />
+      <workItem from="1568963271990" duration="333000" />
+      <workItem from="1578150557541" duration="233000" />
+      <workItem from="1578150819768" duration="13000" />
+      <workItem from="1578151114237" duration="3108000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <created>1511959355792</created>
@@ -280,7 +300,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568915250035</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Changed performAttack and performDefend to return the values for attack and defend. Commented out GUI to test in driver. Dwarf appears to be working correctly">
+      <created>1568917326989</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1568917326989</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -306,26 +333,37 @@
     <MESSAGE value="Added AttackBehavior, DefendBehavior and SwordAttack. &#10;Issue: Attack values are set in User and Enemy Classes, and called in GUI" />
     <MESSAGE value="Added Sword, Hammer, Bow and GreatAxe Attacks that implement AttackBehavior.&#10;Issue Solution: Attack and Defend methods return Integer values to be assigned to attack and defend." />
     <MESSAGE value="Added Human, Dwarf, Elf and Orc classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Human, Dwarf, Elf and Orc classes" />
+    <MESSAGE value="Changed performAttack and performDefend to return the values for attack and defend. Commented out GUI to test in driver. Dwarf appears to be working correctly" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed performAttack and performDefend to return the values for attack and defend. Commented out GUI to test in driver. Dwarf appears to be working correctly" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578150631554">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.39.1680.1010@0.0.1920.1040" timestamp="1578150631554" />
+    <state x="811" y="413" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1578151849591">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="811" y="413" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040/1920.39.1680.1010@0.0.1920.1040" timestamp="1578151849591" />
+    <state x="540" y="179" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor" timestamp="1578151847222">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="540" y="179" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor/0.0.1920.1040/1920.39.1680.1010@0.0.1920.1040" timestamp="1578151847222" />
+    <state x="740" y="279" key="FileChooserDialogImpl" timestamp="1578151833546">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="279" key="FileChooserDialogImpl/0.0.1920.1040/1920.39.1680.1010@0.0.1920.1040" timestamp="1578151833546" />
+    <state x="463" y="166" key="SettingsEditor" timestamp="1578150655170">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="463" y="166" key="SettingsEditor/0.0.1920.1040/1920.39.1680.1010@0.0.1920.1040" timestamp="1578150655170" />
+    <state x="668" y="349" key="com.intellij.ide.util.TipDialog" timestamp="1578150819471">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="668" y="349" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.39.1680.1010@0.0.1920.1040" timestamp="1578150819471" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>
