@@ -4,18 +4,8 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c302552f-c05f-4801-9015-d4ce79985e71" name="Default" comment="Changed performAttack and performDefend to return the values for attack and defend. Commented out GUI to test in driver. Dwarf appears to be working correctly">
-      <change afterPath="$PROJECT_DIR$/src/CA/ATKObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CA/ActionType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CA/BasicAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CA/DEFObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CA/HPObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CA/PerformAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CA/Singleton.java" afterDir="false" />
+    <list default="true" id="c302552f-c05f-4801-9015-d4ce79985e71" name="Default" comment="Connectivity issues resolved, attempting to recover lost files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CA/CA/Driver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CA/CA/Driver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CA/ArmorDefend.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CA/ArmorDefend.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CA/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CA/Driver.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -263,7 +253,7 @@
       <workItem from="1568963271990" duration="333000" />
       <workItem from="1578150557541" duration="233000" />
       <workItem from="1578150819768" duration="13000" />
-      <workItem from="1578151114237" duration="3108000" />
+      <workItem from="1578151114237" duration="3370000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <created>1511959355792</created>
@@ -307,7 +297,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568917326989</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Resolving GIThub issues test">
+      <created>1578154332183</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1578154332183</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -334,7 +331,9 @@
     <MESSAGE value="Added Sword, Hammer, Bow and GreatAxe Attacks that implement AttackBehavior.&#10;Issue Solution: Attack and Defend methods return Integer values to be assigned to attack and defend." />
     <MESSAGE value="Added Human, Dwarf, Elf and Orc classes" />
     <MESSAGE value="Changed performAttack and performDefend to return the values for attack and defend. Commented out GUI to test in driver. Dwarf appears to be working correctly" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed performAttack and performDefend to return the values for attack and defend. Commented out GUI to test in driver. Dwarf appears to be working correctly" />
+    <MESSAGE value="Resolving GIThub issues test" />
+    <MESSAGE value="Connectivity issues resolved, attempting to recover lost files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Connectivity issues resolved, attempting to recover lost files" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578150631554">
@@ -349,6 +348,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="540" y="179" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor/0.0.1920.1040/1920.39.1680.1010@0.0.1920.1040" timestamp="1578151847222" />
+    <state x="222" y="119" key="CommitChangelistDialog2" timestamp="1578154431647">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="222" y="119" key="CommitChangelistDialog2/0.0.1920.1040/1920.39.1680.1010@0.0.1920.1040" timestamp="1578154431647" />
     <state x="740" y="279" key="FileChooserDialogImpl" timestamp="1578151833546">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

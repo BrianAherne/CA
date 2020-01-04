@@ -1,0 +1,65 @@
+commit 7aae3b4693d42ba0fe81121a315665e63853ed4b
+Author: Brian Aherne <Brian.Aherne@students.ittralee.ie>
+Date:   Thu Sep 19 19:22:06 2019 +0100
+
+    Changed performAttack and performDefend to return the values for attack and defend. Commented out GUI to test in driver. Dwarf appears to be working correctly
+
+commit 0a22a7f8ad7b2ae649b260eec37d278756a7a49a
+Author: Brian Aherne <Brian.Aherne@students.ittralee.ie>
+Date:   Thu Sep 19 18:47:29 2019 +0100
+
+    Added Human, Dwarf, Elf and Orc classes
+
+commit dfc3fdf34f76a1db5728146630496fa60039704f
+Author: Brian Aherne <Brian.Aherne@students.ittralee.ie>
+Date:   Thu Sep 19 18:24:54 2019 +0100
+
+    Added Sword, Hammer, Bow and GreatAxe Attacks that implement AttackBehavior.
+    Issue Solution: Attack and Defend methods return Integer values to be assigned to attack and defend.
+
+commit c32cff1d1acb59a29f3c2c1e17a02b06ae847c64
+Author: Brian Aherne <Brian.Aherne@students.ittralee.ie>
+Date:   Thu Sep 19 17:51:54 2019 +0100
+
+    Added AttackBehavior, DefendBehavior and SwordAttack.
+    Issue: Attack values are set in User and Enemy Classes, and called in GUI
+
+commit 3213b81fa2aa49b6abb1ffaddadec73d8ba89c6c
+Author: Brian Aherne <Brian.Aherne@students.ittralee.ie>
+Date:   Thu Sep 19 17:29:34 2019 +0100
+
+    Added Character Test class and PLANTUML Plugin
+
+commit e5c378a9057465358dae843e111862fc6a754ed5
+Author: BrianAherne <brianaherne@live.com>
+Date:   Wed Nov 29 17:24:28 2017 +0000
+
+    GUI
+    
+    Moved methods into GUI class, majority of the program now runs from the GUI class.
+
+commit c80cf9d3e4e1a5c445261e5e624e3c8dd43c185f
+Author: t00160248 <brianaherne@live.com>
+Date:   Wed Nov 29 14:18:02 2017 +0000
+
+    GUI Commit
+    
+    Added the basic framework for the GUI. Using system.out.printlns to see if the buttons of the menu system work. Need to add the methods that run the game into the GUI class.
+
+commit 58ee3e1ba500ccd49552772c754fd99316734c50
+Author: BrianAherne <brianaherne@live.com>
+Date:   Wed Nov 29 12:42:35 2017 +0000
+
+    Test
+
+commit 64a4502666fbaa85ceea2bdd22baa44302c53d35
+Author: BrianAherne <brianaherne@live.com>
+Date:   Wed Nov 29 11:56:18 2017 +0000
+
+    Testing
+
+commit db0f70e3d92c7248c2df9bbd7d1678a1359a07d6
+Author: Brian Aherne <t00160248@365s.ittralee.ie>
+Date:   Wed Nov 29 11:48:45 2017 +0000
+
+    Initial commit
