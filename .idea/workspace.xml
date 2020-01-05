@@ -4,11 +4,14 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c302552f-c05f-4801-9015-d4ce79985e71" name="Default" comment="Connectivity issues resolved, attempting to recover lost files">
-      <change afterPath="$PROJECT_DIR$/src/CA/ActionAdapter.java" afterDir="false" />
+    <list default="true" id="c302552f-c05f-4801-9015-d4ce79985e71" name="Default" comment="code for Adapter work added back, along with the original rough work of the singleton">
+      <change afterPath="$PROJECT_DIR$/src/CA/DragonMarkHuman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CA/HalfElf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CA/HalfOrc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CA/HumanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CA/VariantHuman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CA/VariantHumanDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CA/ActionType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CA/ActionType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CA/AdvancedAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CA/AdvancedAction.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -256,7 +259,8 @@
       <workItem from="1568963271990" duration="333000" />
       <workItem from="1578150557541" duration="233000" />
       <workItem from="1578150819768" duration="13000" />
-      <workItem from="1578151114237" duration="5366000" />
+      <workItem from="1578151114237" duration="5452000" />
+      <workItem from="1578234589429" duration="801000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <created>1511959355792</created>
@@ -314,7 +318,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578154524421</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="code for Adapter work added back, along with the original rough work of the singleton">
+      <created>1578156544333</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1578156544333</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -343,7 +354,8 @@
     <MESSAGE value="Changed performAttack and performDefend to return the values for attack and defend. Commented out GUI to test in driver. Dwarf appears to be working correctly" />
     <MESSAGE value="Resolving GIThub issues test" />
     <MESSAGE value="Connectivity issues resolved, attempting to recover lost files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Connectivity issues resolved, attempting to recover lost files" />
+    <MESSAGE value="code for Adapter work added back, along with the original rough work of the singleton" />
+    <option name="LAST_COMMIT_MESSAGE" value="code for Adapter work added back, along with the original rough work of the singleton" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578150631554">
@@ -358,10 +370,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="540" y="179" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor/0.0.1920.1040/1920.39.1680.1010@0.0.1920.1040" timestamp="1578151847222" />
-    <state x="222" y="119" key="CommitChangelistDialog2" timestamp="1578154523307">
+    <state x="222" y="119" key="CommitChangelistDialog2" timestamp="1578156543392">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="222" y="119" key="CommitChangelistDialog2/0.0.1920.1040/1920.39.1680.1010@0.0.1920.1040" timestamp="1578154523307" />
+    <state x="222" y="119" key="CommitChangelistDialog2/0.0.1920.1040/1920.39.1680.1010@0.0.1920.1040" timestamp="1578156543392" />
     <state x="740" y="279" key="FileChooserDialogImpl" timestamp="1578151833546">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -370,10 +382,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="463" y="166" key="SettingsEditor/0.0.1920.1040/1920.39.1680.1010@0.0.1920.1040" timestamp="1578150655170" />
-    <state x="668" y="349" key="com.intellij.ide.util.TipDialog" timestamp="1578150819471">
+    <state x="668" y="349" key="com.intellij.ide.util.TipDialog" timestamp="1578234589988">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="668" y="349" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.39.1680.1010@0.0.1920.1040" timestamp="1578150819471" />
+    <state x="668" y="349" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.39.1680.1010@0.0.1920.1040" timestamp="1578234589988" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
