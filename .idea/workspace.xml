@@ -4,13 +4,10 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c302552f-c05f-4801-9015-d4ce79985e71" name="Default" comment="code for Adapter work added back, along with the original rough work of the singleton">
-      <change afterPath="$PROJECT_DIR$/src/CA/DragonMarkHuman.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CA/HalfElf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CA/HalfOrc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CA/HumanFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CA/VariantHuman.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CA/VariantHumanDemo.java" afterDir="false" />
+    <list default="true" id="c302552f-c05f-4801-9015-d4ce79985e71" name="Default" comment="unable to retrieve original factory method, added quick demo of variant human race along with subclasses half elf, half orc and dragonmark human">
+      <change afterPath="$PROJECT_DIR$/src/CA/NorthernHumanDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CA/VariantHuamnDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CA/VariantHumanDecoratorDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -260,7 +257,7 @@
       <workItem from="1578150557541" duration="233000" />
       <workItem from="1578150819768" duration="13000" />
       <workItem from="1578151114237" duration="5452000" />
-      <workItem from="1578234589429" duration="801000" />
+      <workItem from="1578234589429" duration="1732000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <created>1511959355792</created>
@@ -325,7 +322,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578156544333</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="unable to retrieve original factory method, added quick demo of variant human race along with subclasses half elf, half orc and dragonmark human">
+      <created>1578235455616</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1578235455616</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -355,13 +359,18 @@
     <MESSAGE value="Resolving GIThub issues test" />
     <MESSAGE value="Connectivity issues resolved, attempting to recover lost files" />
     <MESSAGE value="code for Adapter work added back, along with the original rough work of the singleton" />
-    <option name="LAST_COMMIT_MESSAGE" value="code for Adapter work added back, along with the original rough work of the singleton" />
+    <MESSAGE value="unable to retrieve original factory method, added quick demo of variant human race along with subclasses half elf, half orc and dragonmark human" />
+    <option name="LAST_COMMIT_MESSAGE" value="unable to retrieve original factory method, added quick demo of variant human race along with subclasses half elf, half orc and dragonmark human" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578150631554">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.39.1680.1010@0.0.1920.1040" timestamp="1578150631554" />
+    <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser" timestamp="1578236133477">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.39.1680.1010@0.0.1920.1040" timestamp="1578236133477" />
     <state x="811" y="413" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1578151849591">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -370,10 +379,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="540" y="179" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor/0.0.1920.1040/1920.39.1680.1010@0.0.1920.1040" timestamp="1578151847222" />
-    <state x="222" y="119" key="CommitChangelistDialog2" timestamp="1578156543392">
+    <state x="222" y="119" key="CommitChangelistDialog2" timestamp="1578235454210">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="222" y="119" key="CommitChangelistDialog2/0.0.1920.1040/1920.39.1680.1010@0.0.1920.1040" timestamp="1578156543392" />
+    <state x="222" y="119" key="CommitChangelistDialog2/0.0.1920.1040/1920.39.1680.1010@0.0.1920.1040" timestamp="1578235454210" />
     <state x="740" y="279" key="FileChooserDialogImpl" timestamp="1578151833546">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
