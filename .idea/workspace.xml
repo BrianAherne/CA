@@ -254,7 +254,7 @@
       <workItem from="1578150557541" duration="233000" />
       <workItem from="1578150819768" duration="13000" />
       <workItem from="1578151114237" duration="5452000" />
-      <workItem from="1578234589429" duration="4704000" />
+      <workItem from="1578234589429" duration="5007000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <created>1511959355792</created>
@@ -333,7 +333,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578236366453</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Added a demo for decorator to allow a race to be from the North">
+      <created>1578239470275</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1578239470275</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -394,10 +401,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="540" y="179" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor/0.0.1920.1040/1920.39.1680.1010@0.0.1920.1040" timestamp="1578151847222" />
-    <state x="222" y="119" key="CommitChangelistDialog2" timestamp="1578236365528">
+    <state x="222" y="119" key="CommitChangelistDialog2" timestamp="1578239469614">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="222" y="119" key="CommitChangelistDialog2/0.0.1920.1040/1920.39.1680.1010@0.0.1920.1040" timestamp="1578236365528" />
+    <state x="222" y="119" key="CommitChangelistDialog2/0.0.1920.1040/1920.39.1680.1010@0.0.1920.1040" timestamp="1578239469614" />
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1578239119269">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
