@@ -4,10 +4,7 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c302552f-c05f-4801-9015-d4ce79985e71" name="Default" comment="unable to retrieve original factory method, added quick demo of variant human race along with subclasses half elf, half orc and dragonmark human">
-      <change afterPath="$PROJECT_DIR$/src/CA/NorthernHumanDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CA/VariantHuamnDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CA/VariantHumanDecoratorDemo.java" afterDir="false" />
+    <list default="true" id="c302552f-c05f-4801-9015-d4ce79985e71" name="Default" comment="Added a demo for decorator to allow a race to be from the North">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -257,7 +254,7 @@
       <workItem from="1578150557541" duration="233000" />
       <workItem from="1578150819768" duration="13000" />
       <workItem from="1578151114237" duration="5452000" />
-      <workItem from="1578234589429" duration="1732000" />
+      <workItem from="1578234589429" duration="4704000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <created>1511959355792</created>
@@ -329,7 +326,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578235455616</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Added a demo for decorator to allow a race to be from the North">
+      <created>1578236366453</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1578236366453</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -338,6 +342,11 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="1">
+          <value>
+            <State />
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State>
@@ -346,6 +355,11 @@
           </value>
         </entry>
       </map>
+    </option>
+    <option name="OPEN_TABS">
+      <set>
+        <option value="1" />
+      </set>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
@@ -360,7 +374,8 @@
     <MESSAGE value="Connectivity issues resolved, attempting to recover lost files" />
     <MESSAGE value="code for Adapter work added back, along with the original rough work of the singleton" />
     <MESSAGE value="unable to retrieve original factory method, added quick demo of variant human race along with subclasses half elf, half orc and dragonmark human" />
-    <option name="LAST_COMMIT_MESSAGE" value="unable to retrieve original factory method, added quick demo of variant human race along with subclasses half elf, half orc and dragonmark human" />
+    <MESSAGE value="Added a demo for decorator to allow a race to be from the North" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a demo for decorator to allow a race to be from the North" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578150631554">
@@ -379,10 +394,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="540" y="179" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor/0.0.1920.1040/1920.39.1680.1010@0.0.1920.1040" timestamp="1578151847222" />
-    <state x="222" y="119" key="CommitChangelistDialog2" timestamp="1578235454210">
+    <state x="222" y="119" key="CommitChangelistDialog2" timestamp="1578236365528">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="222" y="119" key="CommitChangelistDialog2/0.0.1920.1040/1920.39.1680.1010@0.0.1920.1040" timestamp="1578235454210" />
+    <state x="222" y="119" key="CommitChangelistDialog2/0.0.1920.1040/1920.39.1680.1010@0.0.1920.1040" timestamp="1578236365528" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1578239119269">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040/1920.39.1680.1010@0.0.1920.1040" timestamp="1578239119269" />
     <state x="740" y="279" key="FileChooserDialogImpl" timestamp="1578151833546">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
